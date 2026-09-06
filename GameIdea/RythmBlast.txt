@@ -1,0 +1,11 @@
+RythmBlast
+
+It's something i have been working on in UE5, but it's absolute silliness to use UE5 for a game like this. (Kill a fly with a bazooka or something like that). 
+The idea is Geometry Dash meets Metroid shooting and SHMUP chaos. So a 2D sidescroller rythm game, with no forward or backward movement input. Inputs are jump, shoot, slide, deflect. Shooting is 360 degrees around the PC akin to classic Metroid. The most difficult part is definitely to get enemy shooting and the flow of the environment to line up with music. But getting the most important base functionality to work would already be nice in godot, so i can go on to tinker it on my own later on. So-
+
+RythmBlast
+A rythm sidescroller shoot em up. You control a character that is forced to push through an increasingly more complex environment and to face enemies that definitely do not want you to make it to the finish line. Tight environment that punishes the player for missed timing on inputs that. The environment scrolls on the screen almost like a note sheet or a visualizer. Enemy shooting following the bassline. It is expected for the player to die, learn, try again, and i'm not sure if i would like the game to be super frustrating with the level resetting on death or be more forgiving with checkpoints. 
+
+Future nice to have ideas: pickups like bullet time, evolving weapon pickups that reset on death, Bossfights that push the bullet hell idea. 
+
+https://youtu.be/rAtY3_WUOXc?t=391 (timestamped, basically this with bullet hell and shooting)
