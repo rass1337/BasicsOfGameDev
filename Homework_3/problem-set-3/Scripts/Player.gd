@@ -6,12 +6,12 @@ var player_name: String = "GigaDonut"
 
 func take_damage(amount: int) -> void:
 	health -= amount
-	print(" Got hit by a brick for ", (amount), " damage, remaining health is: ", (health))
+	print(" Got hit by a brick for ", amount, " damage, remaining health is: ", health)
 	
 func heal() -> void:
 	while health < max_health:
 		health = min(health + 7, max_health)
-		print(" MEDPACK! health: ", (health), "/", max_health)
+		print(" MEDPACK! health: ", health, "/", max_health)
 
 func _ready() -> void:
 	print(player_name, " HP: ", health, "/", max_health, " Speed: ", speed )
